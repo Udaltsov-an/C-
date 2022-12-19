@@ -5,7 +5,6 @@
 void FindCross(double b1, double k1, double b2, double k2) {
     double x0 = ((b2-b1)/(k1-k2));
     double y0 = (k1 * x0 + b1);
-    Console.WriteLine($"{x0} = ({b2-b1})/{k1-k2}"); 
     Console.WriteLine($"Точка пересечения двух прямых [{x0};{y0}]");    
 }
 
